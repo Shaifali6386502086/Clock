@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clock-dial{
+    width: 250px;
+    height:250px;
+    border:10px solid rgb(106, 37, 185);
+    border-radius: 30%;
+    margin:0 auto;
+    position: relative;
+}
+.point{
+  width:15px;
+  height:15px;
+  background-color:black;
+  border-radius:50%;
+  position:absolute;
+  top:115px;
+  left:115px;
+}
+.hour{
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+  position:absolute;
+}
+.hour-1{
+  top:12px;
+  right:65px;
+}
+.hour-2{
+  top:50px;
+  right:20px;
+}
+.hour-3{
+  top:112px;
+  right:20px;
+}
+.hour-4{
+  top:175px;
+  right:20px;
+}
+.hour-5{
+  top:220px;
+  right:65px;
+}
+.hour-6{
+  top:220px;
+  right:120px;
+}
+.hour-7{
+  top:220px;
+  right:180px;
+}
+.hour-8{
+  top:178px;
+  right:220px;
+}
+.hour-9{
+  top:112px;
+  right:220px;
+}
+.hour-10{
+  top:50px;
+  right:210px;
+}
+.hour-11{
+  top:12px;
+  right:180px;
+}
+.hour-12{
+  top:10px;
+  right:120px;
+}
+.brand{
+  font-size:10px;
+  font-weight:bold;
+  color:#b62f4a;
+  position:absolute;
+  top:50px;
+  left:40.5%;
+}
+.minute-hand-wrapper{
+    width:160px;
+    height:160px;
+
+    position:absolute;
+    top:45px;
+    right:45px;
+    border-radius:50%;
+  }
+
+  .minute-hand{
+    position:relative;
+  }
+  .minute-hand .hand{
+    width:3px;
+    height:80px;
+    background-color:#0e110f;
+    position:absolute;
+    top:4px;
+    left:78px;
+    
+  }
+  .minute-hand .arrow{
+    font-size:18px;
+    font-weight:bold;
+    color:#0e110f;
+    transform:rotate(180deg);
+    position:absolute;
+    right:75px;
+    top:0px;
+  }
+.hour-hand-wrapper{
+  width:65px;
+  height:65px;
+
+  position:absolute;
+  top:80px;
+  right:90px;
+  border-radius:50%;
+}
+.hour-hand{
+  position:relative;
+}
+.hour-hand .hand{
+  width:3px;
+  height:32.5px;
+  background-color:#0e110f;
+  position:absolute;
+  top:28px;
+  right:35px;
+}
+
+.second-hand-wrapper{
+  width:180px;
+  height:180px;
+  position:absolute;
+  top:35px;
+  right:37px;
+  border-radius:50%;
+}
+.second-hand{
+  position:relative;
+}
+.second-hand .hand{
+  width:2px;
+  height:90px;
+  background-color:#0e110f;
+  position:absolute;
+  left:85px;
+  
+}
+
